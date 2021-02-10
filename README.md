@@ -10,10 +10,19 @@
 npm install
 ```
 
+### Environment variables
+
+Create an `.env` file in the route directory with the following values:
+
+```
+ALOGLIA_APPLICATION_ID=NGTNBA9J44
+ALOGLIA_ADMIN_ID=50f2665452a5c29c054e6b2fa3e01a34
+```
+
 ### Run
 
 ```
-node server.js
+npx nodemon server.js
 ```
 
 ### Example of API request
